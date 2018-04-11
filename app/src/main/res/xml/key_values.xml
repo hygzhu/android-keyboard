@@ -6,8 +6,8 @@
     android:keyHeight="50dp">
 
     <Row>
-        <Key android:codes="13631" android:keyLabel="Q" android:keyEdgeFlags="left"/>
-        <Key android:codes="23665" android:keyLabel="W"/>
+        <Key android:codes="13631" android:keyLabel="Q" android:popupCharacters="A" android:keyEdgeFlags="left"/>
+        <Key android:codes="23665" android:keyLabel="W" />
         <Key android:codes="20039" android:keyLabel="E"/>
         <Key android:codes="23610" android:keyLabel="R"/>
         <Key android:codes="19973" android:keyLabel="T"/>
@@ -42,9 +42,10 @@
     </Row>
 
     <Row>
-        <Key android:codes="32" android:keyWidth="50%p" android:keyLabel="Space" android:keyEdgeFlags="left"/>
-        <Key android:codes="-4" android:keyWidth="25%p" android:keyLabel="Done"/>
-        <Key android:codes="-5" android:keyWidth="25%p" android:keyLabel="DEL" android:keyEdgeFlags="right"/>
+        <Key android:codes="-6" android:keyWidth="20%p" android:keyLabel="Change" android:keyEdgeFlags="left"/>
+        <Key android:codes="32" android:keyWidth="50%p" android:keyLabel="Space"/>
+        <Key android:codes="-4" android:keyWidth="15%p" android:keyLabel="Done"/>
+        <Key android:codes="-5" android:keyWidth="15%p" android:keyLabel="Del" android:keyEdgeFlags="right"/>
     </Row>
 
 
